@@ -1,5 +1,10 @@
 // #SPDX-License-Identifier: MIT
-var config = require('../frontend.config.json')
+var configObject = {
+    "Frontend": {
+        "host": "0.0.0.0",
+        "port": "5000"
+    }
+};
 import Vue from 'vue';
 
 // module for utility global state
